@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" fill="none">
+  <defs>
+    <!-- bg-gradient-to-tr from-indigo-600 via-indigo-700 to-violet-600 -->
+    <linearGradient id="faviconGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="50%" stop-color="#4338ca" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+
+    <!-- shadow-md shadow-indigo-500/20 -->
+    <filter id="faviconShadow" x="-15%" y="-15%" width="130%" height="135%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#6366f1" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- w-10 h-10 (40x40) rounded-2xl (rx=12) with gradient and shadow -->
+  <rect x="1" y="1" width="38" height="38" rx="12" fill="url(#faviconGrad)" filter="url(#faviconShadow)" />
+
+  <!-- Lucide GraduationCap (w-6 h-6 = 24x24 centered at offset 8, 8) in text-white -->
+  <g transform="translate(8, 8)" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z" />
+    <path d="M22 10v6" />
+    <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5" />
+  </g>
+</svg>
