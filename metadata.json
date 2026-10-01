@@ -1,0 +1,6 @@
+{
+  "name": "UniGrade - 대학생 학점 계산기 및 성적 관리",
+  "description": "실시간 학기별/전공별 GPA 계산, 성적 분포 시각화, CSV 엑셀 내보내기 및 불러오기를 지원하는 대학생 필수 성적 관리 대시보드",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
